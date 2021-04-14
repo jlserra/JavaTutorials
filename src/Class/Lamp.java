@@ -8,13 +8,13 @@ class Lamp {
     boolean isOn;
 
     // method to turn on the light
-    void turnOn() {
+    public void turnOn() {
         isOn = true;
         System.out.println("Light on? " + isOn);
     }
 
     // method to turnoff the light
-    void turnOff() {
+    public void turnOff() {
         isOn = false;
         System.out.println("Light on? " + isOn);
     }
